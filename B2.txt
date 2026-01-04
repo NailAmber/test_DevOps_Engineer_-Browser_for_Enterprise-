@@ -1,0 +1,14 @@
+Сохраняем изменения в текущей ветке
+- `git stash push -m "WIP: junior task"`
+Переключаемся на main
+- `git checkout main`
+После фикса бага в main
+- `git add .`
+- `git commit -m 'Fix a bug'`
+Возвращаемся в feature branch
+- `git checkout feature/junior-task'
+Восстанавливаем изменения в ветке
+- `git stash pop`
+Изменяем название последнего коммита
+- `git commit --amend`
+
